@@ -1,3 +1,114 @@
-h1 {
-  color: pink;
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;1,500&display=swap");
+
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lora", serif;
+}
+body {
+  background-color: aqua;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+}
+.header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: cadetblue;
+}
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  padding: 0 20px;
+  line-height: 50px;
+  transition: 0.3s;
+  flex-grow: 1;
+}
+.nav-list li {
+  margin-right: 20px;
+}
+.nav-list li:last-child {
+  margin-right: 0;
+}
+
+main {
+  margin: 1rem;
+  display: grid;
+  display: flex;
+  grid-template-columns: 30% 1fr;
+  grid-gap: 1rem;
+  filter: drop-shadow(0 0 0.4rem black);
+}
+.info,
+.skills,
+.languages {
+  padding: 1rem;
+  line-height: 2;
+}
+.left,
+.education,
+.code,
+.personal {
+  background-color: antiquewhite;
+}
+.left-image img {
+  width: 100%;
+}
+
+.left-image {
+  position: relative;
+}
+.left-image h1 {
+  position: absolute;
+  bottom: 0;
+  left: 5rem;
+}
+
+.education,
+.code,
+.personal {
+  line-height: 2;
+  padding: 1.5rem;
+}
+.education ul {
+  margin: 2rem 0;
+}
+.date {
+  color: blue;
+}
+.code {
+  margin: 2rem 0;
+}
+.personal h3 {
+  margin: 2rem 0;
+}
+footer {
+  background-color: cadetblue;
+  padding: 2rem 0;
+  text-align: center;
+  line-height: 2;
+  margin-right: 20px;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
 }
