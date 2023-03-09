@@ -1,3 +1,4 @@
+![avatar](https://user-images.githubusercontent.com/119623715/223964448-c10e9ca4-916c-4118-bb9f-a92311991fab.jpeg)
 # Nargiza Ruzieva
 1. _ruzieva.aya@icloud.ru_
 2. _+996 556 566 515_
